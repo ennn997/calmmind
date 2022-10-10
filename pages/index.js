@@ -165,6 +165,7 @@ const Home = () => {
                 direction={{ sm: 'column', md: 'column', lg: 'row', xl: 'row' }}
                 justify={'center'}
                 align="center"
+                height={{ sm: '1495px', md: '1836px', lg: '1808px', xl: '1808px' }}
             >
                 <Flex>
                     <Box h={{ sm: '1836px', md: '1836px', lg: '1808px', xl: '1808px' }}>
@@ -182,7 +183,7 @@ const Home = () => {
                         <Show below="lg">
                             <Box
                                 ml={{ sm: '0px', md: '0px' }}
-                                mt={{ sm: '-150px', md: '-220px' }}
+                                mt={{ sm: '25px', md: '-220px' }}
                                 w={{ sm: '280px', md: '414px' }}
                                 h={'455px'}
                                 position={'absolute'}
@@ -191,7 +192,7 @@ const Home = () => {
                             </Box>
                         </Show>
                         <Text
-                            mt={{ sm: '187px', md: '277px', lg: '176px', xl: '235px' }}
+                            mt={{ sm: '357px', md: '277px', lg: '176px', xl: '235px' }}
                             ml={{ sm: '13px', md: '42px', lg: '512px', xl: '603px' }}
                             mr={{ sm: '0px', md: '42px' }}
                             w={{ sm: '260px', md: '330px', lg: '408px', xl: '440px' }}
